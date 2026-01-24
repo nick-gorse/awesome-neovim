@@ -110,4 +110,8 @@ return {
           require('kitty-scrollback').setup()
         end,
     },
+    {
+        "mrjones2014/smart-splits.nvim",
+        build = "./kitty/install-kittens.bash"
+    },
 }
