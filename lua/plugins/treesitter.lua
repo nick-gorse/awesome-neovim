@@ -55,7 +55,7 @@ return {
             autopairs = { enable = true },
         },
         config = function(_, opts)
-            require("nvim-treesitter.configs").setup(opts)
+            require("nvim-treesitter.config").setup(opts)
         end,
     },
     {
@@ -219,7 +219,7 @@ return {
             -- vim.keymap.set({ "n", "x", "o" }, "<end>", function()
             --   ts_repeat_move.repeat_last_move({forward = true, start = false})
             -- end)
-            require("nvim-treesitter.configs").setup(opts)
+            require("nvim-treesitter.config").setup(opts)
         end,
     },
 }
